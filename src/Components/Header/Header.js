@@ -80,6 +80,11 @@ const Header = () => {
                  </Link>
                </ListItemText>
                <Divider />
+                <ListItemText>
+                 <Link className={mobileNav}  to="/dashBoard">
+                  DashBoard
+                 </Link>
+               </ListItemText>
 
               
                <Divider />
@@ -145,6 +150,9 @@ const Header = () => {
 
                 <NavLink className={deskTopNav} to="/login">
                   <Button color="inherit">Login</Button>
+                </NavLink>
+                <NavLink className={deskTopNav} to="/dashBoard">
+                  <Button color="inherit">DashBoard</Button>
                 </NavLink>
 
                 {/* {

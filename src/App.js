@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import Login from './Components/Login/Login';
+import DashBoard from './Components/Dashboard/DashBoard/DashBoard';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='/dashBoard'>
+            <DashBoard></DashBoard>
           </Route>
         </Switch>
 
